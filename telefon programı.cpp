@@ -1,4 +1,4 @@
-//MUHAMMET EMÝN DOÐU  20180855025
+
 #include<stdio.h>
 #include<windows.h>
 #include <conio.h>
@@ -38,7 +38,7 @@ int main()
         main();
     }
 }
-//buradaki fonksiyonda kullanýcýdan girilen bilgiler dogrultusunda kisi oluþturulur
+//buradaki fonksiyonda kullanÄ±cÄ±dan girilen bilgiler dogrultusunda kisi oluÅŸturulur
 void ekle()
 {
     FILE *fp;
@@ -60,7 +60,7 @@ void ekle()
     getch();
     main();
 }
-//buradaki fonksiyonda kullanýcýdan girilen bilgiler dogrultusunda rehberde kisi aranýr.
+//buradaki fonksiyonda kullanÄ±cÄ±dan girilen bilgiler dogrultusunda rehberde kisi aranÄ±r.
 void ara()
 {
     FILE *fp;
@@ -85,7 +85,7 @@ void ara()
     getch();
     main();
 }
-//buradaki fonksiyonda kullanýcýdan girilen bilgiler dogrultusunda rehberde bulunan kisi silinir.
+//buradaki fonksiyonda kullanÄ±cÄ±dan girilen bilgiler dogrultusunda rehberde bulunan kisi silinir.
 void sil()
 {
     FILE *fp,*fp1;
@@ -121,7 +121,7 @@ void sil()
     getch();
     main();
 }
-//buradaki fonksiyonda kullanýcýdan girilen bilgiler dogrultusunda rehberde bulunan tüm kiþiler gösterilir.
+//buradaki fonksiyonda kullanÄ±cÄ±dan girilen bilgiler dogrultusunda rehberde bulunan tÃ¼m kiÅŸiler gÃ¶sterilir.
 void rehber()
 {
     FILE *fp;
@@ -140,7 +140,7 @@ void rehber()
     getch();
     main();
 }
-//BURADAKÝ FONKSÝYONDA VAR OLAN KISI YENI GIRILEN BILGILER ILE DEGISIR
+//BURADAKÄ° FONKSÄ°YONDA VAR OLAN KISI YENI GIRILEN BILGILER ILE DEGISIR
 void guncelle()
 {
     FILE *fp,*fp1;
@@ -151,7 +151,7 @@ void guncelle()
     printf("\n\t AD :");
     char ad[20];
     scanf("%s",ad);
-    //SOYAD2 DEÐÝÞTÝRÝLECEK OLAN SOYAD NO2 DEÐÝÞTÝRÝLECEK OLAN NO AD2 DEÐÝÞTÝRÝLECEK OLAN AD2
+    //SOYAD2 DEÄžÄ°ÅžTÄ°RÄ°LECEK OLAN SOYAD NO2 DEÄžÄ°ÅžTÄ°RÄ°LECEK OLAN NO AD2 DEÄžÄ°ÅžTÄ°RÄ°LECEK OLAN AD2
     char ad1[20],ad2[20],no[20],soyad[20],soyad2[20],no2[20];
     while(fscanf(fp,"%s %s %s",ad1,soyad,no)!=EOF)
     {
